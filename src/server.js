@@ -14,6 +14,12 @@ const app = express()
 app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'ejs')
 
+app.use(express.urlencoded({extended:true}))
+app.use(express.json());
+
+// Serve CSS and other static assets from the `src/css` directory at `/css` URL
+app.use('/css', express.static(path.join(__dirname, 'css')))
+
 app.use('/', rootRouter)
 app.use('/', newMessageRouter)
 

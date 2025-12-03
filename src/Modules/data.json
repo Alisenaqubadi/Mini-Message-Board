@@ -1,6 +1,28 @@
 {
-   "array": [
-    { "user":"admin", "message":"Hello" },
-    { "user":"admin", "message":"You can chat here." }
-   ]
+  "array": [
+    {
+      "user": "admin",
+      "message": "Hello"
+    },
+    {
+      "user": "admin",
+      "message": "You can chat here."
+    },
+    {
+      "user": "00sali00",
+      "message": "hello"
+    },
+    {
+      "user": "11dreamist",
+      "message": "close your month"
+    },
+    {
+      "user": "11dreamist",
+      "message": "close your month"
+    },
+    {
+      "user": "11dreamist",
+      "message": "fuckyou"
+    }
+  ]
 }
