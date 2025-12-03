@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        The messages
+        <div>
+            <% array.forEach(item => { %>
+                <p><%= item.user %></p> 
+                <p><%= item.message %></p>
+            <% }) %>
+        </div>
+        <button onclick="window.location.href='/newMessage'">Add message</button>
+    </div>
+</body>
+</html>

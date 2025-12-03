@@ -1,0 +1,6 @@
+{
+   "array": [
+    { "user":"admin", "message":"Hello" },
+    { "user":"admin", "message":"You can chat here." }
+   ]
+}

@@ -15,5 +15,14 @@
     "test": "jest",
     "watch": "jest --watch"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  },
+  "_moduleAliases": {
+    "@modules": "src/Modules"
+  }
 }
